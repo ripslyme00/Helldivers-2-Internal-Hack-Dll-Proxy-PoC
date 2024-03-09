@@ -3,20 +3,20 @@ class GameData
 {
 	public:
 		bool	InfAmmo = false;
-		bool	InfAmmoLegit = false;
+		bool	InfAmmoLegit = true;
 		bool	InfGrenades = false;
-		bool	InfGrenadesLegit = false;
+		bool	InfGrenadesLegit = true;
 		bool	InfSyringes = false;
-		bool	InfSyringesLegit = false;
+		bool	InfSyringesLegit = true;
 		bool	InfStratagems = true;
 		bool	InfMissionTime = false;
-		bool	InfStamina = true;
+		bool	InfStamina = false;
 		bool	InfHealth = false;
 		bool	NoReload = false;
 		bool	MaxResources = false;
-		bool	Add5Resources = true;
-		bool	Recoil = true;
-		bool	InfBackpack = true;
+		bool	Add5Resources = false;
+		bool	Recoil = false;
+		bool	InfBackpack = false;
 		bool	InfSpecWeapon = false;
 		bool	NoCannonOverheat = false;
 		bool	NoStasTurretOverHeat = false;
@@ -24,9 +24,9 @@ class GameData
 		bool	ShieldNoCD = true;
 		bool	InstantRailGun = false;
 		bool	ShowAllMapIcons = true;
-		bool	AllStratagems = true;
-		bool	AllEquipment = true;
-		bool	AllArmor = true;
+		bool	AllStratagems = false;
+		bool	AllEquipment = false;
+		bool	AllArmor = false;
 		bool	Speedhack = false;
 
 		bool	OHK = false;
